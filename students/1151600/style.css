@@ -1,0 +1,148 @@
+body{
+	background-image: url(http://1.bp.blogspot.com/_VTm0vNo0iKE/SRRMVlP8VxI/AAAAAAAAAAU/wXyZfDFqcds/s400/Fondo+hoja+de+Vida+Orlando.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+h1{
+	color: red;
+	text-align: center;
+}
+nav{
+	height: 430px;
+	width: 100%;
+	background-color: rgba(183, 249, 159);
+}
+.foto{
+ 	width: 400px;
+ 	height: 400px;
+ 	border-radius: 205px;
+ 	margin-top: -35px;
+ 	float: left;
+ }
+ .contenido{
+ 	margin-top: 40px;
+ 	font-size: 38px;
+ } 
+ #menu{
+ 	position: absolute;
+ 	margin-top: 120px;
+ 	margin-left: 320px;
+ }
+#menu > ul{
+	list-style: none;
+}
+#menu > ul >li{
+	display:inline;
+	font-size: 21px;
+	font-family: monospace;
+	background-color: rgba(249, 249, 249, 0.6);	
+}
+span > a{
+	color: blue;
+}
+a{	
+	text-decoration:none;
+}
+table,th ,td {
+	padding: 15px;
+	border: 1px solid black;
+	border-collapse: collapse;
+	font-size: 24px;
+	font-family: sans-serif, serif;
+}
+
+/*#Fecha + #Soy + #Carrera + #Pelicula + #Canciones + #Materia{
+	background-color: rgba(249, 249, 249, 0.7);
+}*/
+#Fecha{
+	background-color: rgba(167, 173, 164, 0.4);
+}
+#Soy{
+	background-color: rgba(167, 173, 164, 0.4);
+	border-top: 3px solid black;
+}
+#Carrera{
+	background-color: rgba(167, 173, 164, 0.4);
+	border-top: 3px solid black;
+}
+#Pelicula{
+	background-color: rgba(167, 173, 164, 0.4);
+	border-top: 3px solid black;
+}
+#Canciones{
+	background-color: rgba(167, 173, 164, 0.4);
+	border-top: 3px solid black;
+}
+#Materia{
+	background-color: rgba(167, 173, 164, 0.4);
+	border-top: 3px solid black;
+}
+p, li{
+	font-size: 24px;
+	font-family: "Times New Roman", Times, serif;
+}
+footer{
+	height: 120px;
+	width: 100%;
+	background-color: #484A47;
+}
+footer > img{
+	margin-top: 5px;
+	margin-left: 4px;
+	width: 7%;
+	float: left;
+}
+footer > p{
+	color: white;
+	font-family: sans-serif;
+	font-style: oblique;
+}
+@media (min-width: 350px) and (max-width: 460px){
+	nav{
+		height: 160px;
+		width: 100%;
+		background-color: rgba(183, 249, 159);
+	}
+	.foto{
+	 	width: 120px;
+	 	height: 120px;
+	 	border-radius: 35px;
+	 	float: left;
+ 	}
+ 	.contenido{
+	 	margin-top: 10px;
+	 	font-size: 12px;
+ 	} 
+ 	#menu{
+	 	margin-top: 10px;
+	 	margin-right: -60px;
+	 	border: 2px solid black;
+ 	}
+	#menu > ul{
+		list-style: none;
+	}
+	#menu > ul >li{
+		font-size: 12px;
+		font-family: monospace;
+		background-color: rgba(249, 249, 249, 0.6);	
+	}
+	span > a{
+		color: blue;
+	}
+	table,th ,td {
+		padding: 10px;
+		border: 1px solid black;
+		border-collapse: collapse;
+		font-size: 12px;
+		font-family: sans-serif, serif;
+	}
+	footer > img{
+		margin-top: 5px;
+		margin-left: 4px;
+		width: 22%;
+		float: left;
+}
+	footer > p{
+		font-size: 14px;
+	}
+}
