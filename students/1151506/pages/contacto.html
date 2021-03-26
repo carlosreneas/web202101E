@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="../assets/icon/icon.svg"
+      type="image/x-icon"
+    />
+  </head>
+  <body id="contact-body">
+    <div class="center">
+      <h1>Contacto</h1>
+      <form action="https://formspree.io/f/xzbknarv" method="POST">
+        <div class="text-field">
+          <input type="text" required name="nombre" id="nombre" />
+          <span></span>
+          <label for="nombre">Nombre</label>
+        </div>
+        <div class="text-field">
+          <input type="text" required name="_subject" id="asunto" />
+          <span></span>
+          <label for="asunto">Asunto</label>
+        </div>
+        <div class="text-field">
+          <input type="email" required name="_replyto" id="email" />
+          <span></span>
+          <label for="email">Email</label>
+        </div>
+        <div>
+          <textarea
+            name="message"
+            id="mensaje"
+            cols="30"
+            rows="10"
+            required
+            placeholder="Mensaje a enviar"
+          ></textarea>
+          <span></span>
+          <label id="message" for="mensaje">Mensaje</label>
+        </div>
+        <button type="submit" class="btn-submit">Enviar</button>
+      </form>
+      <a href="../index.html" class="link-block">¿Volver a Index? 👀</a>
+    </div>
+  </body>
+</html>
