@@ -1,0 +1,74 @@
+body{
+    background-color:#1c83c7;
+    color:#fff;
+    width:100%;
+}
+
+.p10{
+    padding-top: 10%;
+}
+
+.col-sm-6>img{
+    border: silver 25px solid;
+  border-image-source: url("../img/marco.png");
+  border-image-slice:25;
+}
+
+.email{
+  color:black;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(40, 4, 240);
+    font-weight: bold;
+}
+
+a:hover{
+    text-decoration: none;
+    color:black;
+}
+
+.as1{
+    background-color: white;
+    padding-top:25px;
+    padding-bottom:25px;
+}
+
+.as2{
+    background-color: rgb(58, 57, 57);
+    padding-right: 40px;
+}
+
+p{
+    text-align: justify;
+}
+
+label{
+    background-color: rgb(48, 47, 47);
+    width:100%;
+    text-align: center;
+    font-weight: bold;
+}
+
+@media (min-width: 310px) and (max-width:800px) {
+
+    body{
+        background-color: white;
+    }
+    .col-sm-6>img{
+        width:200px;
+        height:200px;
+    }
+
+    .col-sm-6{
+        text-align: center;
+    }
+
+    .as2{
+        padding-top: 50px;
+       padding-bottom: 150px;
+       padding-right: 10px;
+    }
+
+}
