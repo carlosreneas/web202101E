@@ -3,57 +3,50 @@ body{
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-h1{
-	color: red;
-	text-align: center;
-}
 nav{
-	height: 430px;
-	width: 100%;
-	background-color: rgba(183, 249, 159);
+	width: 28.5%;
+	height: 700px;
+	background-color: rgb(88, 185, 88);
+	position: fixed;
+	float: left;
+	margin-bottom: 10px;
 }
 .foto{
- 	width: 400px;
- 	height: 400px;
- 	border-radius: 205px;
- 	margin-top: -35px;
- 	float: left;
- }
- .contenido{
- 	margin-top: 40px;
- 	font-size: 38px;
- } 
- #menu{
- 	position: absolute;
- 	margin-top: 120px;
- 	margin-left: 320px;
- }
-#menu > ul{
-	list-style: none;
+	width: 400px;
+	height: 400px;
+	border-radius: 205px;
+	margin-left: 10px;
+	margin-top: 8px;
 }
-#menu > ul >li{
-	display:inline;
-	font-size: 21px;
-	font-family: monospace;
-	background-color: rgba(249, 249, 249, 0.6);	
-}
-span > a{
-	color: blue;
-}
-a{	
+span , nav > a{
+	font-size: 24px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: rgb(255, 255, 255);
+	margin-left: 10px;
 	text-decoration:none;
 }
-table,th ,td {
-	padding: 15px;
-	border: 1px solid black;
-	border-collapse: collapse;
-	font-size: 24px;
-	font-family: sans-serif, serif;
+.barra-oculta{
+	width: 28.5%;
+	height: 1290px;
+	float: left;
+	/*background-color: black;*/
 }
-
-/*#Fecha + #Soy + #Carrera + #Pelicula + #Canciones + #Materia{
-	background-color: rgba(249, 249, 249, 0.7);
-}*/
+.barra{
+	width: 90%;
+	background-color:  rgb(68, 143, 68);
+	height: 5px;
+	margin-left: 10px;
+}
+main{
+	margin-top: 2px;
+	margin-left: 30px;
+}
+ol{
+	list-style: none;
+}
+p, li{
+	font-size: 22px;
+}
 #Fecha{
 	background-color: rgba(167, 173, 164, 0.4);
 }
@@ -77,72 +70,205 @@ table,th ,td {
 	background-color: rgba(167, 173, 164, 0.4);
 	border-top: 3px solid black;
 }
-p, li{
-	font-size: 24px;
-	font-family: "Times New Roman", Times, serif;
+table,th ,td {
+	padding: 8px;
+	border: 1px solid black;
+	border-collapse: collapse;
+	font-size: 14px;
+	font-family: sans-serif, serif;
 }
-footer{
-	height: 120px;
-	width: 100%;
+.footers{
+	margin-left: 428px;
+	height: 100px;
+	width: 71.3%;
 	background-color: #484A47;
 }
-footer > img{
-	margin-top: 5px;
+.footers > img{
+	margin-top: 12px;
 	margin-left: 4px;
 	width: 7%;
 	float: left;
 }
-footer > p{
+.footers > p{
 	color: white;
 	font-family: sans-serif;
 	font-style: oblique;
 }
-@media (min-width: 350px) and (max-width: 460px){
+@media only screen and (max-width: 1366px) {
 	nav{
-		height: 160px;
-		width: 100%;
-		background-color: rgba(183, 249, 159);
+		width: 25%;
+		height: 740px;
+		background-color: rgb(88, 154, 185);
+		position: fixed;
+		float: left;
+		margin-bottom: 10px;
 	}
 	.foto{
-	 	width: 120px;
-	 	height: 120px;
-	 	border-radius: 35px;
-	 	float: left;
- 	}
- 	.contenido{
-	 	margin-top: 10px;
-	 	font-size: 12px;
- 	} 
- 	#menu{
-	 	margin-top: 10px;
-	 	margin-right: -60px;
-	 	border: 2px solid black;
- 	}
-	#menu > ul{
-		list-style: none;
+		width: 300px;
+		height: 300px;
+		border-radius: 205px;
+		margin-left: 20px;
+		margin-top: 8px;
 	}
-	#menu > ul >li{
+	span , nav > a{
+		font-size: 18px;
+		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+		color: rgb(255, 255, 255);
+		margin-left: 10px;
+		text-decoration:none;
+	}
+	.footers{
+		margin-left: 337px;
+		height: 100px;
+		width: 75%;
+		background-color: #484A47;
+	}
+  }
+
+  @media only screen and (max-width: 683px) {
+	nav{
+		width: 25%;
+		height: 680px;
+		background-color: rgb(88, 185, 88);
+		position: fixed;
+		float: left;
+		margin-bottom: 10px;
+	}
+	.foto{
+		width: 120px;
+		height: 120px;
+		border-radius: 205px;
+		margin-left: 20px;
+		margin-top: 8px;
+	}
+	span , nav > a{
+		font-size: 10px;
+		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+		color: rgb(255, 255, 255);
+		margin-left: 10px;
+		text-decoration:none;
+	}
+	.barra{
+		width: 80%;
+		background-color:  rgb(111, 224, 111);
+		height: 5px;
+		margin-left: 10px;
+	}
+	.barra-oculta{
+		width: 24.5%;
+		height: 800px;
+		float: left;
+		/*background-color: black;*/
+	}
+	nav > ol > li{
 		font-size: 12px;
-		font-family: monospace;
-		background-color: rgba(249, 249, 249, 0.6);	
+		margin-left: -20px;
+		color: blanchedalmond;
 	}
-	span > a{
-		color: blue;
+	audio{
+		width: 400px;
+		height: 10px;
+	}
+	p, li{
+		font-size: 14px;
 	}
 	table,th ,td {
-		padding: 10px;
+		padding: 8px;
 		border: 1px solid black;
 		border-collapse: collapse;
 		font-size: 12px;
 		font-family: sans-serif, serif;
 	}
-	footer > img{
-		margin-top: 5px;
-		margin-left: 4px;
-		width: 22%;
-		float: left;
-}
-	footer > p{
-		font-size: 14px;
+	.footers{
+		margin-left: 164px;
+		height: 40px;
+		width: 74.6%;
+		background-color: #484A47;
 	}
-}
+	.footers > img{
+		margin-top: 2px;
+		margin-left: 4px;
+		width: 6%;
+		float: left;
+	}
+	.footers > p{
+		color: white;
+		font-family: sans-serif;
+		font-style: oblique;
+		font-size: 8px;
+	}
+  }
+
+  @media only screen and (max-width: 360px) {
+	nav{
+		width: 25%;
+		height: 620px;
+		background-color: rgb(185, 88, 88);
+		position: fixed;
+		float: left;
+		margin-bottom: 10px;
+	}
+	.foto{
+		width: 50px;
+		height: 50px;
+		border-radius: 205px;
+		margin-left: 20px;
+		margin-top: 8px;
+	}
+	span , nav > a{
+		font-size: 5px;
+		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+		color: rgb(255, 255, 255);
+		margin-left: 10px;
+		text-decoration:none;
+	}
+	.barra{
+		width: 70%;
+		background-color:  rgb(68, 143, 68);
+		height: 5px;
+		margin-left: 10px;
+	}
+	.barra-oculta{
+		width: 28.5%;
+		height: 950px;
+		float: left;
+		/*background-color: black;*/
+	}
+	nav > ol > li{
+		font-size: 12px;
+		margin-left: -20px;
+		color: blanchedalmond;
+	}
+	audio{
+		width: 200px;
+		height: 10px;
+	}
+	p, li{
+		font-size: 12px;
+	}
+	table,th ,td {
+		padding: 8px;
+		border: 1px solid black;
+		border-collapse: collapse;
+		font-size: 8px;
+		font-family: sans-serif, serif;
+	}
+	.footers{
+		margin-left: 90px;
+		height: 40px;
+		width: 74%;
+		background-color: #484A47;
+	}
+	.footers > img{
+		margin-top: 2px;
+		margin-left: 4px;
+		width: 10%;
+		float: left;
+	}
+	.footers > p{
+		color: white;
+		font-family: sans-serif;
+		font-style: oblique;
+		font-size: 8px;
+	}
+  }
