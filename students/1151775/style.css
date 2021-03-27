@@ -1,0 +1,59 @@
+#imagen{
+    width: 400px;
+    height: 400px;
+    margin: 10px auto;
+}
+#container{
+    width: 1000px;
+    margin: 0px auto;
+    border: 0.5px solid black;
+}
+header{
+    background: whitesmoke;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    border: 1px solid black;
+}
+body{
+    background: lightgray;
+}
+.aside{
+    color: purple;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-style: italic;
+}
+.div{
+    width: 90%;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    color: black;
+    text-align: center;
+    font-size: 18px; 
+    height: 30px;
+    border-color: 3px dashed blueviolet;
+    border: 2px solid rosybrown;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.descripcion{
+    color: black;
+    width: 80%;
+    text-align:justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 20px; 
+    text-align: center;
+    padding-top: 20 px;
+    border: 10px solid rosybrown;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1000px black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.span{
+    color: black;
+}
