@@ -1,0 +1,66 @@
+img{
+	width: 400px;
+	height: 400px;
+	border-radius: 50%
+
+}
+
+body{
+	width: 60%;
+	margin:auto;
+	background:#A9BCF5;
+}
+
+header, section, footer{
+	position: relative;
+	width: 400px;
+	background: #A9BCF5;
+	float: left;
+	margin: 4% auto;
+
+}
+
+aside span{
+	color: red;
+	margin-right: 2%;
+	text-align: left;
+}
+
+section{
+	position: absolute;
+	left: 49.3%;
+	bottom: 35%;
+	background: #A9BCF5;
+}
+
+footer{
+	position: absolute;
+	left: 49.3%;
+	bottom: 25%;
+	background: #A9BCF5;
+}
+
+.proyectos{
+	background: #7f8c8f;
+	color: #fff;
+	display: inline-block;
+	font-size: 1.25em;
+	margin: 20px;
+	padding: 10px 0px;
+	text-align: center;
+	width: 200px;
+	text-decoration: none;
+}
+
+.github{
+	background: #7f8c8f;
+	color: #fff;
+	display: inline-block;
+	font-size: 1.25em;
+	margin: 20px;
+	padding: 10px 0px;
+	text-align: center;
+	width: 200px;
+	text-decoration: none;
+	
+}
