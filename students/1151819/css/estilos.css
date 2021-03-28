@@ -1,0 +1,137 @@
+
+.contenedor-perfil{
+	padding: 50px;
+}
+
+.asindecoraction{
+	text-decoration: none;
+	color:white;
+}
+
+.image-perfil{
+	width:400px;
+    height:400px;
+    border-radius:160px;
+    border:10px solid #fff;
+}
+
+
+.info-p{
+	padding-top: 100px;
+	text-align: center;
+	font-family: Arial,sans-serif;
+	color:#fff;
+}
+
+.info-p >h2{
+	font-family: 'Bebas Neue', cursive;
+	padding-top: 15px;
+}
+
+.title{
+	padding-top: 0px;
+}
+
+body{
+	background-color: #1b2b3e;
+}
+
+.perfil-descripcion{
+	padding-top: 20px;
+	color:#fff;
+	text-align:justify;
+}
+
+.div-servicios{
+	color:#fff;
+	font-family: 
+}
+
+.perfil-descripcion >h2{
+	font-family: 'Abel', sans-serif;
+	color:#fff;
+}
+
+.proyectos-div>h2{
+	font-family: 'Abel', sans-serif;
+	color:#fff;
+}
+.div-servicios>h2{
+	font-family: 'Abel', sans-serif;
+	color:#fff;
+}
+
+.cl-d{
+	padding-left: 25px;
+}
+
+
+@media (min-width: 250px) and (max-width:500px) {
+.image-perfil{
+	width:125px;
+    height:125px;
+    border-radius:160px;
+    border:10px solid #fff;
+}
+.contenedor-perfil{
+	padding: 20px;
+}
+
+#p1{
+	padding-bottom: 25px;
+}
+
+.proyectos-div{
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+}
+
+
+@media (min-width: 601px) {
+	.image-perfil{
+	width:180px;
+    height:180px;
+    border-radius:160px;
+    border:10px solid #fff;
+}
+.contenedor-perfil{
+	padding: 20px;
+}
+}
+
+
+@media (min-width: 310px) and (max-width:500px) {
+	.contenedor-perfil{
+	padding: 20px;
+}
+
+
+.info-p{
+	padding-top: 0px;
+}
+
+
+.title-global{
+	padding-top: 50px;
+	padding-left: 20px;
+}
+
+.perfil-descripcion >h2{
+	font-family: 'Abel', sans-serif;
+}
+
+.image-perfil{
+	width:200px;
+    height:200px;
+    border-radius:160px;
+    border:10px solid #fff;
+}
+
+}
+
+/*
+font-family: 'Abel', sans-serif;
+font-family: 'Anton', sans-serif;
+font-family: 'Bebas Neue', cursive;
+*/
