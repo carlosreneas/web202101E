@@ -1,0 +1,35 @@
+
+*{
+    font-family: 'Ravi Prakash', cursive;
+font-family: 'Roboto', sans-serif;
+}
+
+body{
+    margin-right: 150px;
+    margin-left: 150px;
+}
+#red{
+    color: red;
+}
+
+#img{
+    height: 200px;
+    width: 1000px;
+    object-fit: cover;
+    object-position: 10% 10%;
+}
+
+.center{
+    text-align: center;
+}
+
+td{
+    padding: 10px;
+    border:1px solid black;
+}
+
+table{
+
+    border:1px solid black;
+    width: 100%;
+}
