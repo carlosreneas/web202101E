@@ -1,0 +1,76 @@
+body {
+    background: #295063;
+}
+
+nav label {
+    color: blue;
+}
+
+.container {
+    background: #32667e;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    width: 80%;
+}
+
+div img {
+    border-radius: 20px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#img-izq {
+    margin: 0;
+    padding: 56px;
+}
+
+.inner-column h1,
+span {
+    font-size: 30px;
+}
+
+.inner-column {
+    text-align: left;
+}
+
+.inner-column span {
+    color: #122731;
+    font-size: 15px;
+    width: 90%;
+    align-items: center;
+}
+
+.inner-column p {
+    font-size: 15px;
+}
+
+.btn {
+    margin: 10px;
+}
+
+ul {
+    list-style: none;
+    width: 90%;
+    align-items: center;
+}
+
+ul li {
+    padding: 15px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+ul li a {
+    width: 80%;
+}
+
+.github a {
+    color: #122731;
+}
+
+.github a:hover {
+    color: #2e7ca0;
+}
