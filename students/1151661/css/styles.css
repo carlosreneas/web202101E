@@ -1,0 +1,85 @@
+:root {
+    --main-radius:5px;
+    --main-padding:5px;
+}
+::selection {
+    background: #F23838;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Varela Round', sans-serif;
+}
+body {
+    line-height: 3rem;
+    background-color: rgb(255, 255, 255);
+}
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.6;
+}
+h2 {
+    font-size: 1.8rem;
+}
+h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+h4 {
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
+}
+header {
+    background-color: #ffffff; /*color de fondo*/
+    text-align: center;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    grid-area: nav;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+}
+main {
+    font-size: 1.6rem;
+    margin: 2rem;
+    padding: 3rem;
+    border-style: solid;
+    border-radius: 2rem;
+    background-color: #ffffff;
+    grid-area: main;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+}
+footer{
+    padding: 3rem;
+    font-size: 2rem;
+    background: #000000;
+    grid-area: footer;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+}
+.container {
+    grid-template-columns: 1fr;
+        grid-template-rows: 2.2fr 1.2fr 1fr;
+        grid-template-areas:
+        "header"
+        "main"
+        "footer";
+}
+img {
+    display: block;
+    margin: auto;
+    max-height: 300px;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+}
