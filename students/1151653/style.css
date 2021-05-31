@@ -1,0 +1,62 @@
+html,body{
+
+    width: 1000px;
+    background-image: url(https://image.freepik.com/vector-gratis/fondo-3d-realista-simetria-geometrica-cubos-negros_78474-165.jpg);
+    margin: 0 auto;
+    background-color: #929190c0;
+    padding: 0 20px 20px 20px;
+ 
+}
+.img{
+   
+   width: 400px;
+   height: 400px;
+   border-radius: 205px;
+   margin-left: 10px;
+   margin-top: 8px;
+}
+.img2{
+   width: 400px;
+   height: 400px;
+   border-radius: 205px;
+   margin-left: 10px;
+   margin-top: 8px;
+}
+.titulo{
+   margin: 0;
+ padding: 20px 0;
+ color: red;
+ text-shadow: 3px 3px 1px black;
+}
+
+.parrafo{
+   font-family: "Arial", Times, serif;
+   color: blanchedalmond;
+}
+
+.listas, .listas2, .listas3{
+   color: rgb(88, 5, 196);
+}
+.audio{
+   border: 10px solid black;
+   background-color: #f5f5f5;
+}
+
+.li1, li2{
+color: blanchedalmond;
+}
+.li2{
+   color: blanchedalmond;
+   }
+.nombre{
+    color: #f5f5f5;
+}
+.email{
+    color: #f5f5f5;
+}
+.github{
+    color: #f5f5f5;
+}
+.proyecto{
+    color: #f5f5f5;
+}
